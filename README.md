@@ -37,6 +37,7 @@ df.tail(3)
 ![](./tail.png)
 
 df.info()
+
 ![](./info.png)
 
 df.describe()
@@ -56,6 +57,7 @@ dfs
 ![](./rate%208.png)
 
 df.iloc[[1,3,6],[1,4]]
+
 ![](./iloc.png)
 
 df=df.fillna(0)
