@@ -1,5 +1,7 @@
 # Exno:1
 Data Cleaning Process
+## Reg No: 212223230073
+## Name: HarishKumar R
 
 # AIM
 To read the given data and perform data cleaning and save the cleaned data to a file.
@@ -21,6 +23,35 @@ STEP 5: Remove outliers using IQR
 STEP 6: Use zscore of to remove outliers
 
 # Coding and Output
-            <<include your coding and its corressponding output screen shots here>>
+```py
+import pandas as pd
+df=pd.read_csv("/content/Data_set.csv")
+
+df.head(5)
+![](./head.png)
+
+
+df.tail(3)
+
+df.info()
+
+df.describe()
+
+df.isnull()
+
+df.notnull()
+
+df.dropna(axis=1)
+
+dfs=df[df['rating']>8]
+dfs
+
+df.iloc[[1,3,6],[1,4]]
+
+df=df.fillna(0)
+df
+```
+
+
 # Result
           <<include your Result here>>
