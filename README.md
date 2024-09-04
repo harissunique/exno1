@@ -1,7 +1,7 @@
 # Exno:1
 Data Cleaning Process
 ## Reg No: 212223230073
-## Name: HarishKumar R
+## Name: HarishKumar P
 
 # AIM
 To read the given data and perform data cleaning and save the cleaned data to a file.
